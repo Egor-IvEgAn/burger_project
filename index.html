@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/burger.css">
+    <title>Vintage Food</title>
+</head>
+<body>
+    <header>
+        <nav class="dis_flex">
+            <ul class="logo_nav dis_flex">
+            <p class="logo">VF</p>
+            <p class="logo_name">Vintage Food</p>
+                <li class="li_main">Главная</li>
+                <li class="action">Акции</li>
+                <li class="about">О нас</li>
+            <button id="bucket" type="button"><img src="img/shopping-cart-_1_ 1.svg" alt="bascket" width="35px" height="35px" style="box-sizing: border-box; margin-right: 5px;"></button>
+            </ul>
+            <ul class="discount">
+                <li class="flash">Быстрая доставка для Вас</li>
+                <li class="first_order">Сделай первый заказ и получи скидку 50%</li>
+                <li><button type="button" class="but_order">Заказать</button></li>
+            </ul>
+            <img class="img_burger" src="img/Фото _Бургер_.png" alt="burger">
+        </nav>
+    </header>
+    <main>
+        <p class="main_title">Меню</p>
+        <ul class="dis_flex main_ul">
+            <li>
+                <img class="main_img" src="../Burger/img/Картинка _Бургеры_.png" alt="burgers">
+                <p class="main_txt">Бургеры</p>
+            </li>
+            <li>
+                <img class="main_img" src="../Burger/img/Картинка _Блюда из курицы_.png" alt="chiken_dishes">
+                <p class="main_txt">Блюда из курицы</p>
+            </li>
+            <li>
+                <img class="main_img" src="../Burger/img/Картинка _Горячие блюда_.png" alt="hot_dishes">
+                <p class="main_txt">Горячие блюда</p>
+            </li>
+            <li>
+                <img class="main_img" src="../Burger/img/Картинка _Закуски_.png" alt="snacks">
+                <p class="main_txt">Закуски</p>
+            </li>
+            <li>
+                <img class="main_img" src="../Burger/img/Картинка _Салаты_.png" alt="salads">
+                <p class="main_txt">Салаты</p>
+            </li>
+            <li>
+                <img class="main_img" src="../Burger/img/Картинка _Десерты_.png" alt="deserts">
+                <p class="main_txt">Десерты</p>
+            </li>
+        </ul>
+    </main>
+    <footer>
+        <ul class="foot_ul_main dis_flex">
+            <ul class="foot_ul_1 dis_flex">
+                <li>Программа лояльности</li>
+                <li>Политика конфиденциальности</li>
+                <li>Договор оферты</li>
+            </ul>
+            <ul class="foot_ul_2">
+                <li>ООО «Vintage Food»</li>
+                <li>© Все права защищены</li>
+            </ul>
+            <ul class="foot_ul_3">
+                <a href="https://vk.com/the_translators" target="_blank"><img class="img_vk" src="../Burger/img/VK Circled.png" alt="VK"></a>
+                <img src="../Burger/img/Telegram.png" alt="TLG">
+            </ul>
+        </ul>
+    </footer>
+    <script>
+        document.getElementById('bucket').onclick = myFunction1;
+        function myFunction1() {
+            alert('Hello!');
+        }
+    </script>
+</body>
+</html>
